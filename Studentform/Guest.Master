@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Guest.master.cs" Inherits="Studentform.Guest" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+  
+    <form id="form1" runat="server">
+
+    <div class="card text-center">
+                 
+  <div class="card-header">
+      <br />
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="studentreg.aspx"><h2>StudentRegister</h2></a>
+      </li>
+    </ul>
+      <p>
+          &nbsp;</p>
+      <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item"><a class="nav-link" href="WebForm1.aspx"><h2>Login</h2></a> </li>
+    </ul>
+      <p>
+          &nbsp;</p>
+      <ul class="nav nav-tabs card-header-tabs">
+      
+     <li class="nav-item">
+        <a class="nav-link" href="Faculty.aspx"><h2>Faculty</h2></a>
+      </li>
+    </ul>
+ </div>
+        </div>
+        
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         
+             </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
